@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.list {
+    width: 90%;
+    margin: auto;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.list_item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-bottom: 5px;
+}
+
+.list_item span {
+    color: #222222;
+}
+
+.task_btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn_delete i {
+    font-size: 16px;
+    color: #444444;
+    margin-right: 20px;
+}
+
+.btn_edit i {
+    font-size: 16px;
+    color: #444444;
+    margin-right: 20px;
+}
+
+.container {
+    background: linear-gradient(100deg, #99FF66	50%, #99FF99 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_wrapper {
+    background-color: #DDDDDD;
+    width: 25%;
+    min-width: 450px;
+    height: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(120, 120, 120, 0.4);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.task_input {
+    width: 350px;
+    min-width: 250px;
+    padding: 15px 10px 10px 20px;
+    margin-right: 10px;
+    font-family: 'Josefin Sans', serif;
+    font-size: 15px;
+    color: #222;
+    background-color: #eee;
+    border: 1px solid #444;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    display: flex;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.add_task_btn {
+    min-width: 100px;
+    height: 35px;
+    background-color: #fff;
+    color: #222;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    cursor: pointer;
+}
+
+.clear_btn {
+    width: 100px;
+    height: 35px;
+    background-color: #66103b;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    cursor: pointer;
+}
+
+.header h1 {
+    color: #222;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 20px 60px 20px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.no_tasks {
+    color: #777;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Josefin Slab', serif;
+  }
